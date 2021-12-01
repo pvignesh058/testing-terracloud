@@ -18,9 +18,10 @@ terraform {
   }
 }
 
-#provider "tfe" {
+provider "tfe" {
+  version  = "~> 0.26.1"
 #  token    = var.tfe_token
-#}
+}
 
 resource "tfe_team" "test" {
   name         = "my-team-team-pradeep"
