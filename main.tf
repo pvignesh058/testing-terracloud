@@ -18,10 +18,6 @@ terraform {
   }
 }
 
-credentials "app.terraform.io" {
-  token = "xUTjKrE7uXJ-zhnvm-Zm"
-}
-
 provider "tfe" {
   token    = var.tfe_token
 }
