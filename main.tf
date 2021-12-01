@@ -18,9 +18,9 @@ terraform {
   }
 }
 
-provider "tfe" {
-  token    = var.tfe_token
-}
+#provider "tfe" {
+#  token    = var.tfe_token
+#}
 
 resource "tfe_team" "test" {
   name         = "my-team-team-pradeep"
